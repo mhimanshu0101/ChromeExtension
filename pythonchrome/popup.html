@@ -1,0 +1,63 @@
+<!--<!doctype html>-->
+<!--&lt;!&ndash;-->
+<!-- This page is shown when the extension button is clicked, because the-->
+<!-- "browser_action" field in manifest.json contains the "default_popup" key with-->
+<!-- value "popup.html".-->
+<!-- &ndash;&gt;-->
+<!--<html>-->
+<!--  <head>-->
+<!--    <title>Getting Started Extension's Popup</title>-->
+<!--    <style>-->
+<!--      body {-->
+<!--        font-family: "Segoe UI", "Lucida Grande", Tahoma, sans-serif;-->
+<!--        font-size: 100%;-->
+<!--      }-->
+<!--      #status {-->
+<!--        /* avoid an excessively wide status text */-->
+<!--        white-space: pre;-->
+<!--        text-overflow: ellipsis;-->
+<!--        overflow: hidden;-->
+<!--        max-width: 400px;-->
+<!--      }-->
+<!--    </style>-->
+
+<!--    &lt;!&ndash;-->
+<!--      - JavaScript and HTML must be in separate files: see our Content Security-->
+<!--      - Policy documentation[1] for details and explanation.-->
+<!--      - -->
+<!--      - [1]: https://developer.chrome.com/extensions/contentSecurityPolicy-->
+<!--     &ndash;&gt;-->
+<!--    <script src="popup.js"></script>-->
+<!--  </head>-->
+<!--  <body>-->
+<!--    <div id="status"></div>-->
+<!--    <img id="image-result" hidden>-->
+<!--  </body>-->
+<!--</html>-->
+
+<!--Using Brython to run python console on chrome using extension-->
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta charset="iso-8859-1">
+<style>
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 800;
+}
+
+#frame {
+    height: 300px;
+  width: 300px;
+  resize: both;
+  overflow: auto;
+}
+
+</style>
+</head>
+<body onLoad="">
+<iframe src=https://www.linkedin.com/in/i-mhimanshu/ id="frame" seamless="seamless" ></iframe>
+</body>
+</html>
